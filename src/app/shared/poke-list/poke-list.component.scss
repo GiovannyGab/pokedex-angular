@@ -1,0 +1,65 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  .pokemon {
+    position: relative;
+
+    display: flex;
+    width: calc(49% - 40px);
+
+    height: 117px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+
+    &__info {
+      h2 {
+        color: var(--Primary, #262835);
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+
+        li {
+          border-radius: 32px;
+          background: #efefef;
+          color: var(--Primary, #262835);
+          font-family: Roboto;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 55.04px;
+          height: 16px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    &__image {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      right: 20px;
+      bottom: 20px;
+      width: 110px;
+      height: 90px;
+      background: url("../../../assets/Bolinhas.svg") no-repeat;
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
+}
