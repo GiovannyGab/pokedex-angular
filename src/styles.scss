@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@use './scss-configs/reset.config.scss';
+
+html{
+  font-family: 'Roboto', sans-serif;
+  background-color: #262835;
+  //#ff5473
+
+}
+main{
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

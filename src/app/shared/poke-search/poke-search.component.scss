@@ -1,0 +1,23 @@
+:host{
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.20);
+    padding: 15px 20px;
+    input{
+      width: 95%;
+      background: none;
+      border: none;
+      outline: 0;
+      color:#fff;
+      font-size: 18px;
+
+      &::placeholder{
+        color: #fff !important;
+      }
+
+    }
+  }
+}
