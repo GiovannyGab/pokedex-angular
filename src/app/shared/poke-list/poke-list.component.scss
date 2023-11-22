@@ -2,13 +2,17 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
+  flex-wrap: wrap;
   .pokemon {
     position: relative;
-
+    margin-bottom: 20px;
     display: flex;
-    width: calc(49% - 40px);
+    width: calc(49% - 2.5rem);
 
-    height: 117px;
+    text-decoration: none;
+color: var(--Primary, #262835);
+
+    height: 120px;
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -22,6 +26,7 @@
         font-weight: 700;
         line-height: normal;
         margin-bottom: 10px;
+        text-transform: capitalize;
       }
       ul {
         display: flex;
